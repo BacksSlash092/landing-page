@@ -1,0 +1,167 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+}
+
+main{
+
+   
+    padding: 0px;
+     margin: 0 auto;
+    width: 93%;
+    margin-top: 0;
+     box-shadow:0px 10px 70px 1px #888888;
+    
+    background:  #ccc;
+}
+
+header{
+    margin-bottom: 0;
+    min-height: 78%;
+    background: #344347;
+    text-align: center;
+    padding: 10px;
+    font-size: 290%;
+    color: white;
+    font-family: 'Jim Nightshade', cursive;
+    border-bottom:200px solid black;
+    
+}
+
+
+
+header h1{
+    margin-top: 15%;
+    
+}
+
+header img{
+    width: 70%;
+    margin-top: 33%;
+}
+#section-1{
+    margin-top: 0;
+    background: #e20016;
+    border-bottom: solid 5px;
+    font-family: 'Jim Nightshade', cursive;
+font-family: 'Droid Serif', serif;
+}
+
+
+
+#section-2{
+    margin-top: 0;
+    padding-top: 0;
+ 
+    border-bottom: solid 5px;
+    font-family: 'Jim Nightshade', cursive;
+font-family: 'Droid Serif', serif;
+}
+
+
+#section-2 img{
+    width: 60%;
+    padding: 0;
+    margin-top: 0;
+    padding-left: 025%;
+    
+}
+#main-content{
+    min-height:100%;
+    background:#fffcdb ;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+#slogan{
+    padding: 10px;
+    min-height: 45%;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+   
+  
+    
+}
+
+
+footer{
+    
+    padding: 10px;
+    min-height: 10%;
+    font-size: 405%;
+    background:#43484f!important;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+
+#menu{
+    
+    float: left;
+    width: 22%;
+    border-right: solid;
+    padding:3%;
+    
+}
+
+#message-area{
+    float: right;
+    width: 68%;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+ul{
+    list-style: none
+}
+
+
+li{
+    font-size: 145%;
+    margin-top: 15%;
+    font-weight: bold;
+     box-shadow: 3px 10px 5px #888888;
+    background-color: red;
+    color: white;
+    padding: 4%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+#contact{
+    padding: 10px;
+    min-height: 45%;
+    font-size: 300%;
+    color:#ffe900 !important;
+    text-align: center;
+    padding-top: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+li:hover{
+    background: #344347;
+}
+
+
+.fadeInBlock {
+    opacity:0;
+}

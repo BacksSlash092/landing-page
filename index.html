@@ -1,0 +1,108 @@
+<html lang="US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Greg J. Borrelly">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Jim+Nightshade" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+
+    
+    </head>
+    
+    
+    <body>
+       
+        <main>
+             <header>
+            <h1>Turtle & Hare Designs</h1>
+                 <img src="img/fast_and_slow.png">
+        
+        </header>
+             <div id="section-1" class="fadeInBlock">
+          <div id="slogan">
+             <h1>You dream it,<br> I'll Build it.</h1>
+        
+        </div>
+        
+        
+        </div>
+        
+          <div id="section-2" class="fadeInBlock">
+             
+          <div id="main-content">
+             <div id="menu">
+                <ul>
+                <li><a>Agile Development</a></li>
+                    <a href="#"><li>Mobile</li></a>
+                    <li><a>UX Interview</a></li>
+                    <li><a>Resources</a></li>
+                    <a href="#"><li>Mobile</li></a>
+                    <a href="#"><li>Mobile</li></a>
+                    <a href="#"><li>Mobile</li></a>
+                 
+                 </ul>
+              </div>
+              
+              <div id="message-area">
+                <div>This a message</div>
+              
+              </div>
+        
+        </div>
+              
+            <div id="contact">
+              
+                  Enough Said.<br><br>Lets Get to Work
+                    <br>
+                <button>Click ME</button>
+              
+            </div>
+        
+         <footer>
+            
+            
+     </footer>
+       
+        
+        </main>
+      
+        
+       
+     
+    
+        
+    </body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <script>
+    $(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadeInBlock').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 600;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+        }); 
+    
+    });
+});
+    
+    </script>
+
+</html>
